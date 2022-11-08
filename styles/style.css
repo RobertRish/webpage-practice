@@ -73,6 +73,12 @@ nav a:hover {
   width: 100%;
 }
 
+.email-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .email-flex input {
   margin: 0 10px;
   width: 75%;
@@ -84,9 +90,8 @@ nav a:hover {
   border-radius: 10px;
   border: none;
   padding: 5px 20px;
-  font-size: 18px;
-  width: 15%;
-  color: #f01e5c;
+  font-size: 1.5vw;
+  color: black;
 }
 
 .email-flex button:hover {
@@ -114,11 +119,12 @@ p {
     max-width: 250px;
   }
   .email-flex button {
+    text-align: center;
     font-size: 11px;
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 432px) {
   nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -154,6 +160,12 @@ p {
     font-size: 12px;
     width: 40%;
     margin: 5px 0 0 10px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .email-flex button {
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=style.css.map */
