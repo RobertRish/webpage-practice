@@ -24,6 +24,7 @@ nav a {
   color: #f01e5c;
   background-color: #f3f1f1;
   text-decoration: none;
+  text-align: center;
 }
 
 nav a:hover {
